@@ -1,0 +1,34 @@
+:root { 
+    --warning: #ffd028;
+    --danger: #eb3f27;
+
+}
+
+.btn{ 
+    font-family:  sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor:pointer;
+
+}
+
+.btn:hover { 
+    transform: translateY(-3px);
+}
+
+.btn--warning--solid{ 
+    background-color: var(--warning);
+    color: black;
+    border:none;
+}
+
+.btn--danger--solid{ 
+    background-color: var(--danger);
+    color: white;
+    border:none;
+}
+.btn--medium{ 
+
+}
+

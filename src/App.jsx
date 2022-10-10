@@ -7,8 +7,10 @@ function App() {
 
   return (
     <div className="App">
+      <button>Post</button>
+      <button>Delete</button>
 
-      <h1>Blog</h1>
+      
       <Post />
       <Buttons />
 
